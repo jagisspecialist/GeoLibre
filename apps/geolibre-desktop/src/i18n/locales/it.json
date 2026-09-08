@@ -2596,7 +2596,7 @@
       "pointsAlongGeometry": "Punti lungo la geometria",
       "grid": "Griglia regolare",
       "voronoi": "Voronoi / Delaunay",
-      "cellSectors": "Copertura dei siti cellulari",
+      "cellSectors": "Copertura delle celle radio",
       "dggsGenerator": "Generatore DGGS",
       "dggsBinning": "Raggruppamento DGGS",
       "dggsCompact": "Compattazione DGGS",
@@ -2631,7 +2631,7 @@
       "reproject": "Riproietta",
       "resample": "Ricampiona",
       "clipExtent": "Ritaglia per estensione",
-      "clipMask": "Ritaglia con maschera di layer",
+      "clipMask": "Ritaglia con layer maschera",
       "polygonize": "Poligonizza",
       "contour": "Curve di livello",
       "interpolate": "Interpolazione (IDW / Kriging)",
@@ -4979,7 +4979,7 @@
           }
         },
         "cell-sectors": {
-          "name": "Copertura dei siti cellulari",
+          "name": "Copertura delle celle radio",
           "description": "Costruisce poligoni a settore (spicchio) delle antenne a partire da siti puntuali usando azimut, raggio e ampiezza del fascio (letti da campi attributo o valori fissi). L'ampiezza del fascio è limitata a 360° (cerchio completo); l'ampiezza registrata riflette il valore limitato. Utile per la copertura dei ripetitori cellulari, come QGIS Shape Tools.",
           "params": {
             "layer": {
@@ -5285,7 +5285,7 @@
             },
             "layer": {
               "label": "Layer DGGS di input",
-              "description": "Layer di celle poligonali prodotto dal Generatore DGGS / Binning DGGS (o equivalente)."
+              "description": "Layer di celle poligonali prodotto dal Generatore DGGS / Raggruppamento DGGS (o equivalente)."
             },
             "cellField": {
               "label": "Campo ID della cella",
@@ -5864,7 +5864,7 @@
           }
         },
         "clip-mask": {
-          "name": "Ritaglia con maschera di layer",
+          "name": "Ritaglia con layer maschera",
           "description": "Ritaglia un raster sulle geometrie di un file vettoriale di maschera.",
           "params": {
             "mask_path": {
