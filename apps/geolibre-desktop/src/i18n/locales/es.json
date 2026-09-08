@@ -4066,7 +4066,7 @@
       "editTitle": "Editar widget",
       "description": "Elija una capa, un tipo de gráfico y los campos a graficar.",
       "noLayers": "No hay capas graficables. Añada primero una capa vectorial o de consulta DuckDB.",
-      "noFields": "Esta capa no tiene campos numéricos ni categóricos que representar.",
+      "noFields": "Esta capa no tiene campos numéricos ni categóricos que graficar.",
       "layer": "Capa",
       "chartType": "Tipo de gráfico",
       "field": "Campo",
