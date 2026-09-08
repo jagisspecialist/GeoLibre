@@ -127,7 +127,7 @@
       "trustButton": "Considera attendibile e carica",
       "dismissButton": "Non caricare"
     },
-    "title": "Gestisci i plugin",
+    "title": "Gestisci plugin",
     "searchAria": "Cerca plugin",
     "searchPlaceholder": "Cerca plugin",
     "refresh": "Aggiorna",
@@ -185,8 +185,8 @@
     "meanSlope": "Pendenza media",
     "computing": "Calcolo del terreno…",
     "partialData": "Alcuni campioni non avevano dati del terreno",
-    "heading": "Azimut",
-    "finalHeading": "Azimut finale",
+    "heading": "Direzione",
+    "finalHeading": "Direzione finale",
     "bodyNote": "Misurato su: {{body}} (approssimazione sferica)"
   },
   "statusBar": {
@@ -262,7 +262,7 @@
     "remove": "Rimuovi",
     "add": "Aggiungi",
     "ok": "OK",
-    "done": "Fatto",
+    "done": "Fine",
     "openWebApp": "Apri l'app web di GeoLibre"
   },
   "addData": {
@@ -350,7 +350,7 @@
       }
     },
     "shared": {
-      "layerName": "Nome layer",
+      "layerName": "Nome di layer",
       "insertBelow": "Inserisci sotto",
       "insertTop": "Cima dell'elenco dei layer (predefinito)",
       "layersGroup": "Layer",
@@ -372,7 +372,7 @@
       "optional": "Facoltativo",
       "chooseFile": "Scegli file",
       "noFileSelected": "Nessun file selezionato",
-      "loading": "Caricamento in corso...",
+      "loading": "Caricamento...",
       "workspaceLayerPlaceholder": "workspace:layer",
       "requestFailed": "Richiesta non riuscita con stato {{status}}",
       "networkFailure": "Impossibile raggiungere il servizio. Verifica che l'host sia raggiungibile e che il certificato TLS, il firewall e le impostazioni proxy consentano la richiesta; nel browser potrebbe anche essere bloccata dal CORS, quindi prova l'app desktop.",
@@ -519,8 +519,8 @@
       "sampleImageServiceLabel": "Ombreggiatura USGS 3DEP (servizio immagini)",
       "featureLayer": "Layer di elementi",
       "vectorTileLayer": "Layer di tile vettoriali",
-      "mapServiceLayer": "Servizio mappa",
-      "imageServiceLayer": "Servizio immagini",
+      "mapServiceLayer": "Servizio di mappe",
+      "imageServiceLayer": "Servizio di immagini",
       "portalItemId": "ID elemento del portale",
       "featureUrlPlaceholder": "https://services.arcgis.com/.../FeatureServer/0",
       "vectorTileUrlPlaceholder": "https://.../arcgis/rest/services/.../VectorTileServer",
@@ -761,7 +761,7 @@
       "sql": "SQL (facoltativo)",
       "sqlHint": "Modifica per filtrare o rimodellare ciò che viene visualizzato. L'istruzione deve restituire una colonna GEOMETRY; lasciala come generata per leggere l'intera tabella.",
       "selectTable": "Seleziona una tabella",
-      "geometryColumn": "Colonna della geometria",
+      "geometryColumn": "Colonna geometria",
       "rowLimit": "Limite di righe",
       "rowLimitHint": "Il layer contiene le prime righe della tabella, fino a questo limite. Il limite non può superare {{max}} righe.",
       "rowLimitTruncates": "La tabella contiene {{total}} righe; il layer conterrà le prime {{limit}}.",
@@ -863,7 +863,7 @@
       "loadVariables": "Carica variabili",
       "variableLabel": "Variabile",
       "dimIndexLabel": "Indice {{dim}}",
-      "colormapLabel": "Mappa colori",
+      "colormapLabel": "Mappa di colori",
       "bandCombinationLabel": "Combinazione di bande",
       "bandCombinationHelp": "Una singola banda viene resa con una mappa colori; una composizione RGB disegna tre bande di questa variabile come canali rosso, verde e blu, ciascuno stirato sul proprio intervallo 2-98 %.",
       "modeSingleBand": "Banda singola (con mappa colori)",
@@ -987,7 +987,7 @@
     "pathKeyframes": "Fotogrammi chiave",
     "pathZoom": "Zoom",
     "pathPitch": "Inclinazione",
-    "pathHold": "Sosta",
+    "pathHold": "Mantieni",
     "pathTransition": "Spostamento",
     "pathGenerate": "Genera",
     "pathConfirmReplace": "Sostituire i fotogrammi chiave correnti con quelli generati da questo percorso?",
@@ -1029,7 +1029,7 @@
     "fileNameLabel": "Nome file",
     "saveVideo": "Salva video…",
     "discard": "Scarta",
-    "saved": "Salvato {{name}}",
+    "saved": "{{name}} salvato",
     "saveCancelled": "Salvataggio annullato.",
     "recordError": "Impossibile registrare il tour. Riprova.",
     "saveError": "Impossibile salvare il video. Riprova."
@@ -1070,7 +1070,7 @@
     "saveVideo": "Salva video…",
     "discard": "Scarta",
     "videoFileType": "Video",
-    "saved": "Salvato {{name}}",
+    "saved": "{{name}} salvato",
     "saveCancelled": "Salvataggio annullato.",
     "recordError": "Impossibile registrare il video. Riprova.",
     "saveError": "Impossibile salvare il video. Riprova."
@@ -1084,7 +1084,7 @@
     "reopenLayer": "Apri Raccolta dati sul campo ({{layer}})",
     "targetLayer": "Layer di raccolta",
     "newLayer": "Nuovo layer di raccolta…",
-    "layerName": "Nome del layer",
+    "layerName": "Nome di layer",
     "layerNamePlaceholder": "Osservazioni sul campo",
     "geometry": "Geometria",
     "geom": {
@@ -1143,7 +1143,7 @@
     "noGeolocation": "La geolocalizzazione non è disponibile su questo dispositivo.",
     "geolocationDenied": "Impossibile ottenere la tua posizione. Controlla le autorizzazioni di localizzazione e riprova.",
     "photoTooLarge": "Questa foto è troppo grande (massimo {{max}}). Scegli un'immagine più piccola.",
-    "photoReadError": "Impossibile leggere questa immagine. Prova un altro file.",
+    "photoReadError": "Impossibile leggere questa immagine. Prova con un altro file.",
     "errorRequired": "Questo campo è obbligatorio.",
     "errorNumber": "Inserisci un numero valido.",
     "errorChoice": "Scegli una delle opzioni elencate."
@@ -1199,7 +1199,7 @@
     "nmeaBaudRate": "Velocità in baud",
     "nmeaConnectSerial": "Connetti seriale",
     "nmeaConnectBluetooth": "Connetti Bluetooth",
-    "nmeaConnecting": "Connessione…",
+    "nmeaConnecting": "Connessione in corso…",
     "nmeaConnected": "Connesso a {{device}}.",
     "nmeaDisconnect": "Disconnetti",
     "nmeaNotConnected": "Connetti un ricevitore NMEA qui sopra per iniziare a trasmettere le posizioni.",
@@ -1235,8 +1235,8 @@
     "clickImageHint": "Fai clic su un punto dell'immagine, quindi collegalo sulla mappa.",
     "pixelPicked": "Punto immagine: {{x}}, {{y}}",
     "linkOnMap": "Collega sulla mappa",
-    "zoomIn": "Aumenta zoom",
-    "zoomOut": "Riduci zoom",
+    "zoomIn": "Ingrandisci",
+    "zoomOut": "Riduci",
     "zoomReset": "Ripristina zoom",
     "importGcps": "Importa",
     "exportGcps": "Esporta",
@@ -1350,7 +1350,7 @@
     "credentialsRemoved": "{{count}} campo/i di credenziali non sono stati inclusi. I destinatari devono fornire le proprie credenziali o usare un riferimento mediato.",
     "copyLink": "Copia link",
     "open": "Apri",
-    "done": "Fatto",
+    "done": "Fine",
     "projectTitle": "Titolo progetto",
     "titlePlaceholder": "Assegna un nome al progetto",
     "titleRequired": "Inserisci un titolo del progetto prima di condividerlo.",
@@ -1446,7 +1446,7 @@
     "description": "Componi una mappa pronta per la stampa con titolo, legenda, barra di scala e freccia del nord, quindi esportala in PNG o PDF.",
     "preview": "Anteprima",
     "resizeControls": "Ridimensiona il pannello dei controlli",
-    "resizeDialog": "Ridimensiona la finestra di dialogo",
+    "resizeDialog": "Ridimensiona finestra di dialogo",
     "recapture": "Ricattura mappa",
     "copyToClipboard": "Copia negli appunti",
     "copied": "Copiato",
@@ -1494,7 +1494,7 @@
       "infoBlock": "Blocco informazioni (cartiglio)",
       "colorbar": "Barra dei colori",
       "customLegend": "Legenda personalizzata",
-      "dataTable": "Tabella attributi",
+      "dataTable": "Tabella degli attributi",
       "dataChart": "Grafico"
     },
     "dataBlocks": {
@@ -1522,7 +1522,7 @@
       "type": "Tipo di grafico",
       "typeBar": "Barre",
       "typePie": "Torta",
-      "typeLine": "Linee",
+      "typeLine": "Linea",
       "categoryField": "Campo categoria",
       "aggregation": "Aggregazione",
       "aggCount": "Conteggio",
@@ -1710,7 +1710,7 @@
       "expandAll": "Espandi tutto",
       "collapseAll": "Comprimi tutto",
       "loadingTitle": "Identifica i layer visibili",
-      "loading": "Caricamento in corso...",
+      "loading": "Caricamento...",
       "errorLabel": "Errore",
       "error": "Impossibile identificare questo layer.",
       "band": "Banda {{index}}",
@@ -1747,7 +1747,7 @@
     "done": "Fine"
   },
   "pixelTimeSeries": {
-    "title": "Serie temporale del pixel",
+    "title": "Serie temporale dei pixel",
     "empty": "Fai clic su un pixel della mappa per tracciarne il valore nel tempo. Aggiungi altri pixel per confrontarli.",
     "band": "Banda",
     "bandOption": "Banda {{index}}",
@@ -1820,7 +1820,7 @@
     "styleHintOverlay": "Aggiunge l'estratto come semplice layer overlay invece che come mappa di base con stile.",
     "phaseDirectories": "Lettura delle directory dell'archivio…",
     "phaseData": "Download dei tile in corso…",
-    "resize": "Ridimensiona pannello",
+    "resize": "Ridimensiona il pannello",
     "estimatedSize": "≈ {{size}} · {{tiles}} tile",
     "estimatedSizeLarge": "Download di grandi dimensioni: ≈ {{size}} · {{tiles}} tile",
     "planWarning": "Questo estratto è di circa {{size}} su {{tiles}} tile e viene assemblato in memoria. Continuare?",
@@ -2073,7 +2073,7 @@
       "south": "Sud",
       "east": "Est",
       "north": "Nord",
-      "useCurrentView": "Usa vista corrente",
+      "useCurrentView": "Usa la vista corrente",
       "useCurrentViewHint": "Cattura l'estensione corrente della mappa e attiva Limita l'estensione della mappa.",
       "useCurrentViewGlobeHint": "Passa alla proiezione di Mercatore prima di usare questa opzione. Nella proiezione a globo la mappa può comunque spostarsi leggermente oltre l'estensione catturata.",
       "minZoom": "Zoom minimo",
@@ -2266,7 +2266,7 @@
       "settings": "Impostazioni"
     },
     "atmosphere": {
-      "haloColor": "Colore dell'alone",
+      "haloColor": "Colore alone",
       "haloExtent": "Estensione dell'alone",
       "haloExtentHint": "Quanto si estende il bagliore atmosferico oltre il globo. Un valore più basso mantiene i dati vicini alla superficie; un valore più alto crea un alone ampio e leggero.",
       "haloOpacity": "Intensità dell'alone",
@@ -2305,7 +2305,7 @@
       "followZoom": "Zoom telecamera",
       "followRotate": "Ruota verso la direzione",
       "color": "Colore del percorso",
-      "marker": "Indicatore",
+      "marker": "Marcatore",
       "markerStyle": {
         "arrow": "Freccia (direzione)",
         "point": "Punto",
@@ -2318,7 +2318,7 @@
       "recordingStatus": "Registrazione… {{percent}}%",
       "savingVideo": "Salvataggio video…",
       "stop": "Interrompi",
-      "videoSaved": "Salvato {{name}}",
+      "videoSaved": "{{name}} salvato",
       "videoError": "Impossibile registrare l'animazione. Riprova.",
       "videoUnsupported": "La registrazione video non è supportata in questo browser.",
       "videoFileTypeMp4": "Video MP4",
@@ -2336,7 +2336,7 @@
       "close": "Chiudi",
       "speed": "Velocità",
       "altitude": "Quota",
-      "heading": "Prua",
+      "heading": "Direzione",
       "agl": "Sul terreno",
       "throttle": "Manetta",
       "maxSpeed": "Velocità massima",
@@ -2566,7 +2566,7 @@
       "latitudeColumn": "Colonna della latitudine",
       "compression": "Compressione",
       "rowGroupSize": "Dimensione del gruppo di righe",
-      "layerName": "Nome del layer",
+      "layerName": "Nome di layer",
       "noOutput": "Nessun output ancora.",
       "fallbackTitle": "Conversione"
     },
@@ -2596,11 +2596,11 @@
       "pointsAlongGeometry": "Punti lungo la geometria",
       "grid": "Griglia regolare",
       "voronoi": "Voronoi / Delaunay",
-      "cellSectors": "Copertura delle celle radio",
+      "cellSectors": "Copertura dei siti cellulari",
       "dggsGenerator": "Generatore DGGS",
       "dggsBinning": "Raggruppamento DGGS",
       "dggsCompact": "Compattazione DGGS",
-      "trajectorySpeed": "Velocità di traiettoria",
+      "trajectorySpeed": "Velocità della traiettoria",
       "detectStops": "Rileva soste",
       "spaceTimeProximity": "Prossimità spazio-temporale",
       "mergeLayers": "Unisci layer",
@@ -2611,7 +2611,7 @@
     },
     "networkTool": {
       "isochrone": "Isocrona / area di servizio",
-      "odMatrix": "Matrice costi OD",
+      "odMatrix": "Matrice dei costi OD",
       "sequentialRoute": "Percorso sequenziale (indicazioni)"
     },
     "statisticsTool": {
@@ -2620,18 +2620,18 @@
       "getisOrd": "Hotspot Getis-Ord Gi*",
       "averageNearestNeighbor": "Vicino più prossimo medio",
       "kernelDensity": "Densità kernel (mappa di calore)",
-      "emergingHotSpot": "Hotspot emergenti (cubo spazio-tempo)",
+      "emergingHotSpot": "Hotspot emergenti (cubo spazio-temporale)",
       "compositeScore": "Punteggio composito (indice di idoneità)"
     },
     "rasterTool": {
       "downloadGlobalDem": "Scarica DEM globale",
-      "hillshade": "Ombreggiatura del rilievo",
+      "hillshade": "Ombreggiatura",
       "slope": "Pendenza",
       "aspect": "Esposizione",
       "reproject": "Riproietta",
       "resample": "Ricampiona",
       "clipExtent": "Ritaglia per estensione",
-      "clipMask": "Ritaglia per layer maschera",
+      "clipMask": "Ritaglia con maschera di layer",
       "polygonize": "Poligonizza",
       "contour": "Curve di livello",
       "interpolate": "Interpolazione (IDW / Kriging)",
@@ -2779,7 +2779,7 @@
       "conversion": "Conversione",
       "vector": "Vettoriale",
       "network": "Rete",
-      "statistics": "Statistica spaziale",
+      "statistics": "Statistiche spaziali",
       "raster": "Raster",
       "hydrology": "Idrologia",
       "lidar": "LiDAR",
@@ -2797,8 +2797,8 @@
       "subGroupDataManagement": "Gestione dati",
       "subGroupDataQuality": "Qualità dei dati",
       "subGroupTerrain": "Terreno",
-      "subGroupReproject": "Riproiezione",
-      "subGroupClip": "Ritaglio",
+      "subGroupReproject": "Riproietta",
+      "subGroupClip": "Ritaglia",
       "subGroupRasterToVector": "Da raster a vettoriale",
       "subGroupVectorToRaster": "Da vettoriale a raster",
       "subGroupAnalysis": "Analisi",
@@ -3081,7 +3081,7 @@
       "sampleForLayerLabel": "Inserisci una query di esempio per un layer",
       "noLayersEngine": "Nessun layer vettoriale è ancora caricato come tabella. Carica un layer vettoriale per interrogarlo con {{engine}}.",
       "noLayersReaders": "Nessun layer vettoriale è ancora caricato come tabella. Puoi comunque leggere file e URL con read_parquet(), read_csv_auto() o ST_Read().",
-      "layerName": "Nome layer",
+      "layerName": "Nome di layer",
       "layerNamePlaceholder": "Nome layer (opzionale)",
       "addAsLayer": "Aggiungi come layer",
       "exportCsv": "Esporta CSV",
@@ -3252,7 +3252,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella H3.",
@@ -3285,7 +3285,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella S2.",
@@ -3312,7 +3312,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella A5.",
@@ -3345,7 +3345,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella DGGRID.",
@@ -3373,7 +3373,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella DGGAL.",
@@ -3400,7 +3400,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella OLC.",
@@ -3427,7 +3427,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} celle. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id delle celle",
     "identifyHint": "Fai clic sulla mappa per identificare una cella Geohash.",
@@ -3454,7 +3454,7 @@
     "tooManyCells": "Questa vista supera il limite di {{limit}} tile. Ingrandisci o riduci la risoluzione.",
     "fillColor": "Colore di riempimento",
     "fillOpacity": "Opacità di riempimento",
-    "lineColor": "Colore del contorno",
+    "lineColor": "Colore di tratto",
     "lineWidth": "Spessore del contorno",
     "showLabels": "Mostra gli id dei tile",
     "identifyHint": "Fai clic sulla mappa per identificare un tile.",
@@ -3542,7 +3542,7 @@
     "metadataHeading": "Metadati immagine",
     "close": "Chiudi",
     "metaTitle": "Titolo",
-    "metaProvider": "Fornitore",
+    "metaProvider": "Provider",
     "metaPlatform": "Piattaforma",
     "metaResolution": "Risoluzione",
     "metaAcquired": "Acquisita",
@@ -3950,7 +3950,7 @@
     "pinTitlePrompt": "Titolo",
     "pinDescPrompt": "Descrizione",
     "stickyNotePrompt": "Contenuto della nota",
-    "imageUrlPrompt": "URL dell'immagine",
+    "imageUrlPrompt": "URL immagine",
     "cancel": "Annulla",
     "saveElement": "Salva elemento",
     "atPoint": "Nel punto",
@@ -3958,7 +3958,7 @@
   },
   "dimensions": {
     "toolbar": "Strumenti di quotatura",
-    "layerName": "Quote",
+    "layerName": "Quotature",
     "tools": {
       "linear": "Quota lineare",
       "angular": "Quota angolare"
@@ -4041,8 +4041,8 @@
       "histogram": "Istogramma",
       "scatter": "Dispersione",
       "bar": "Barre",
-      "line": "Linee",
-      "box": "Box plot",
+      "line": "Linea",
+      "box": "Diagramma a scatola e baffi",
       "pie": "Torta",
       "indicator": "Indicatore",
       "selector": "Selettore",
@@ -4164,7 +4164,7 @@
       "footer": "Piè di pagina",
       "theme": "Tema pannello",
       "showMarkers": "Mostra indicatori",
-      "markerColor": "Colore indicatore",
+      "markerColor": "Colore marcatore",
       "inset": "Minimappa inserita",
       "hideChapterNav": "Nascondi elenco capitoli",
       "startView": "Abilita vista iniziale",
@@ -4220,7 +4220,7 @@
       "subtitlePlaceholder": "Sottotitolo mostrato sotto il titolo in ogni pagina",
       "byline": "Autore",
       "bylinePlaceholder": "Autore o credito",
-      "footerText": "Testo piè di pagina",
+      "footerText": "Testo del piè di pagina",
       "footerPlaceholder": "Piè di pagina mostrato in fondo a ogni pagina",
       "markers": "Indicatori di posizione cliccabili",
       "markersHint": "Viene disegnato un indicatore nella posizione di ogni capitolo. Facendo clic sull'indicatore in un lettore PDF si apre quella coordinata in Google Maps.",
@@ -4255,7 +4255,7 @@
     "description": "Isocrone, aree di servizio e matrici di costo origine-destinazione dai tuoi layer di punti.",
     "heading": "Rete",
     "run": "Esegui",
-    "outputPlaceholder": "Il risultato verrà visualizzato qui.",
+    "outputPlaceholder": "Il risultato apparirà qui.",
     "endpointNotice": "Le coordinate dei punti vengono inviate al server di routing ({{endpoint}}). Il valore predefinito è un server Valhalla pubblico condiviso (FOSSGIS), soggetto a limiti di frequenza. Per un uso intensivo, inserisci l'URL del tuo server nel campo \"Server di routing (Valhalla)\" sopra."
   },
   "statistics": {
@@ -4320,7 +4320,7 @@
       "clearSelection": "Deseleziona",
       "selectAll": "Seleziona tutto",
       "noCompatibleLayers": "Nessun layer GeoJSON compatibile.",
-      "outputPlaceholder": "L'output apparirà qui."
+      "outputPlaceholder": "Il risultato apparirà qui."
     },
     "modelBuilder": {
       "title": "Generatore di modelli",
@@ -4558,7 +4558,7 @@
       "sidecarUnavailablePyodide": "Il sidecar GeoPandas non è disponibile. Avvia il sidecar con l'extra vector, oppure passa a Python (Pyodide).",
       "pyodideNote": "Esegue GeoPandas nel tuo browser. La prima esecuzione scarica il runtime Python (una sola volta, richiede una connessione a internet).",
       "run": "Esegui",
-      "outputPlaceholder": "L'output apparirà qui.",
+      "outputPlaceholder": "Il risultato apparirà qui.",
       "resolutionRange": "Risoluzione (0-{{max}})"
     },
     "toolMeta": {
@@ -4877,7 +4877,7 @@
           }
         },
         "smooth": {
-          "name": "Leviga",
+          "name": "Smussa",
           "description": "Arrotonda gli angoli degli elementi lineari e poligonali con l'algoritmo di Chaikin (aggiunge vertici), a differenza della riduzione dei vertici di Semplifica. Le quote Z sono conservate; i punti passano invariati.",
           "params": {
             "layer": {
@@ -5095,7 +5095,7 @@
               "label": "Tipo DGGAL",
               "description": "DGGRS passato a dggal.createDGGRS (ISEA/IVEA/RTEA/HEALPix/GNOSIS).",
               "options": {
-                "gnosis": "GNOSISGlobalGrid",
+                "gnosis": "GNOSIS Global Grid",
                 "isea4r": "ISEA4R",
                 "isea9r": "ISEA9R",
                 "isea3h": "ISEA3H",
@@ -5154,7 +5154,7 @@
           }
         },
         "dggs-bin": {
-          "name": "Binning DGGS",
+          "name": "Raggruppamento DGGS",
           "description": "Aggrega un layer di punti in celle DGGS (conteggio oppure somma/media/min/max di un campo numerico).",
           "params": {
             "dggsType": {
@@ -5192,7 +5192,7 @@
               "label": "Tipo DGGAL",
               "description": "DGGRS passato a dggal.createDGGRS (ISEA/IVEA/RTEA/HEALPix/GNOSIS).",
               "options": {
-                "gnosis": "GNOSISGlobalGrid",
+                "gnosis": "GNOSIS Global Grid",
                 "isea4r": "ISEA4R",
                 "isea9r": "ISEA9R",
                 "isea3h": "ISEA3H",
@@ -5256,7 +5256,7 @@
               "label": "Tipo DGGAL",
               "description": "DGGRS passato a dggal.createDGGRS (ISEA/IVEA/RTEA/HEALPix/GNOSIS).",
               "options": {
-                "gnosis": "GNOSISGlobalGrid",
+                "gnosis": "GNOSIS Global Grid",
                 "isea4r": "ISEA4R",
                 "isea9r": "ISEA9R",
                 "isea3h": "ISEA3H",
@@ -5634,7 +5634,7 @@
           }
         },
         "getis-ord-gi": {
-          "name": "Hot spot Getis-Ord Gi*",
+          "name": "Hotspot Getis-Ord Gi*",
           "description": "Identifica hot spot e cold spot statisticamente significativi di un attributo numerico.",
           "params": {
             "layer": {
@@ -5688,7 +5688,7 @@
           }
         },
         "emerging-hot-spot": {
-          "name": "Hot spot emergenti (cubo spazio-temporale)",
+          "name": "Hotspot emergenti (cubo spazio-temporale)",
           "description": "Costruisce un cubo spazio-temporale da punti con timestamp (una griglia fishnet × intervalli di tempo uguali) e classifica ogni cella come hot/cold spot nuovo, in intensificazione, persistente, in diminuzione, sporadico, oscillante o storico. Esegue Getis-Ord Gi* per ogni intervallo temporale, quindi un test di tendenza di Mann-Kendall sulla serie Gi* di ogni cella. Lato client, come l'analisi Emerging Hot Spot di ArcGIS.",
           "params": {
             "layer": {
@@ -5864,7 +5864,7 @@
           }
         },
         "clip-mask": {
-          "name": "Ritaglia con layer maschera",
+          "name": "Ritaglia con maschera di layer",
           "description": "Ritaglia un raster sulle geometrie di un file vettoriale di maschera.",
           "params": {
             "mask_path": {
@@ -6126,12 +6126,12 @@
       "geometry": "Geometria",
       "join": "Join",
       "movementTime": "Movimento e tempo",
-      "network": "Reti",
+      "network": "Rete",
       "overlay": "Sovrapposizione",
       "rasterToVector": "Da raster a vettoriale",
       "reproject": "Riproiezione",
       "select": "Selezione",
-      "spatialStatistics": "Statistica spaziale",
+      "spatialStatistics": "Statistiche spaziali",
       "terrain": "Terreno",
       "vectorToRaster": "Da vettoriale a raster"
     }
@@ -6234,7 +6234,7 @@
     "expand": "Espandi pannello",
     "collapse": "Comprimi pannello",
     "close": "Chiudi pannello",
-    "resize": "Ridimensiona pannello",
+    "resize": "Ridimensiona il pannello",
     "moveLeft": "Sposta pannello a sinistra",
     "moveRight": "Sposta pannello a destra",
     "mergeIntoStyleRail": "Unisci alla barra Stile",
@@ -6250,7 +6250,7 @@
     "collapse": "Comprimi {{title}}"
   },
   "attributeTable": {
-    "title": "Tabella attributi",
+    "title": "Tabella degli attributi",
     "resize": "Ridimensiona la tabella attributi",
     "editValues": "Modifica i valori degli attributi",
     "editTitleFinishGeometry": "Termina la modifica della geometria per modificare gli attributi",
@@ -6270,7 +6270,7 @@
     "manageFields": "Gestisci campi",
     "columnExplorerTitle": "Esplora tutti i campi in un colpo d'occhio",
     "columnExplorerTitleDisabled": "L'esploratore delle colonne richiede un layer vettoriale o una query DuckDB",
-    "columnExplorer": "Esploratore delle colonne",
+    "columnExplorer": "Esploratore di colonne",
     "statisticsTitle": "Riepilogo statistiche del campo",
     "statisticsTitleDisabled": "Le statistiche richiedono un layer vettoriale o una query DuckDB",
     "statistics": "Statistiche del campo",
@@ -6288,8 +6288,8 @@
     "clearSelectedFeature": "Deseleziona l'elemento",
     "statusFeatures_one": "{{count}} elemento",
     "statusFeatures_other": "{{count}} elementi",
-    "statusShown_one": "{{count}} mostrato",
-    "statusShown_other": "{{count}} mostrati",
+    "statusShown_one": "{{count}} mostrata",
+    "statusShown_other": "{{count}} mostrate",
     "statusSelected_one": "{{count}} selezionato",
     "statusSelected_other": "{{count}} selezionati",
     "featureViewAria": "Vista elemento",
@@ -6325,8 +6325,8 @@
       "typeHistogram": "Istogramma",
       "typeScatter": "Dispersione",
       "typeBar": "Barre",
-      "typeLine": "Linee",
-      "typeBox": "Box plot",
+      "typeLine": "Linea",
+      "typeBox": "Diagramma a scatola e baffi",
       "typePie": "Torta",
       "bins": "Classi",
       "aggregate": "Aggregazione",
@@ -6467,7 +6467,7 @@
       "greyscaleHint": "Attiva/disattiva una mappa di base in scala di grigi (porta la saturazione al minimo)",
       "reset": "Ripristina",
       "resetHint": "Ripristina le regolazioni ai valori predefiniti",
-      "exactValueHint": "Fai doppio clic per inserire un valore esatto",
+      "exactValueHint": "Doppio clic per inserire un valore esatto",
       "opacity": "Opacità",
       "brightnessMin": "Luminosità minima",
       "brightnessMax": "Luminosità massima",
@@ -6476,8 +6476,8 @@
       "hueRotate": "Rotazione tonalità",
       "footerDeck": "Le modifiche si applicano in tempo reale all'opacità del layer raster.",
       "footerMaplibre": "Le modifiche si applicano in tempo reale alle proprietà paint raster di MapLibre.",
-      "valueAria": "Valore {{label}}",
-      "editValueAria": "Modifica il valore {{label}}"
+      "valueAria": "Valore di {{label}}",
+      "editValueAria": "Modifica valore di {{label}}"
     },
     "visibility": {
       "minZoom": "Zoom minimo",
@@ -6592,8 +6592,8 @@
     "elevation3d": {
       "mode": "3D (valori Z)",
       "fillColor": "Colore di riempimento",
-      "outlineColor": "Colore del contorno",
-      "strokeWidth": "Larghezza del tratto",
+      "outlineColor": "Colore di tratto",
+      "strokeWidth": "Spessore del tratto",
       "strokeWidthMeters": "Larghezza del tratto (metri)",
       "fillOpacity": "Opacità di riempimento",
       "circleRadius": "Raggio del cerchio",
@@ -6628,7 +6628,7 @@
       "atlasFull": "{{count}} diagrammi non entrano con questa dimensione e sono nascosti. Riduci la dimensione dei diagrammi."
     },
     "symbology": {
-      "colormap": "Mappa colori",
+      "colormap": "Mappa di colori",
       "modeSingle": "Simbologia singola",
       "modeGraduated": "Graduata",
       "modeCategorized": "Categorizzata",
@@ -6650,7 +6650,7 @@
       "ruleMaxZoom": "Zoom massimo",
       "ruleZoomInvalid": "Lo zoom minimo deve essere inferiore allo zoom massimo: questa regola non si applica mai finché l'intervallo è vuoto.",
       "ruleStrokeWidth": "Spessore del tratto",
-      "ruleFillOpacity": "Opacità del riempimento",
+      "ruleFillOpacity": "Opacità di riempimento",
       "ruleCircleSize": "Raggio del cerchio",
       "ruleOutlineColor": "Sovrascrivi il colore del contorno",
       "ruleOutlineColorPick": "Seleziona il colore del contorno della regola {{index}} dallo schermo",
@@ -6789,7 +6789,7 @@
     },
     "expressionBuilder": {
       "title": "Generatore di espressioni",
-      "openBuilder": "Apri generatore di espressioni",
+      "openBuilder": "Apri il generatore di espressioni",
       "openBuilderForRule": "Apri generatore di espressioni per la regola {{index}}",
       "expressionLabel": "Espressione",
       "clear": "Cancella espressione",
@@ -6896,10 +6896,10 @@
       "bufferField": "Campo distanza",
       "bufferFieldHint": "Ogni elemento viene bufferizzato con il proprio valore in metri; gli elementi senza valore usano la distanza sopra e il valore 0 non disegna nulla.",
       "fieldNone": "Nessuno (fisso)",
-      "fillColor": "Colore riempimento",
-      "strokeColor": "Colore contorno",
+      "fillColor": "Colore di riempimento",
+      "strokeColor": "Colore di tratto",
       "strokeWidth": "Larghezza contorno (px)",
-      "opacity": "Opacità riempimento",
+      "opacity": "Opacità di riempimento",
       "circleRadius": "Raggio punto (px)",
       "sizeField": "Campo dimensione"
     },
@@ -6909,7 +6909,7 @@
       "configureField": "Configura campo",
       "field": "Campo",
       "selectField": "Seleziona campo…",
-      "widgetLabel": "Widget di modifica",
+      "widgetLabel": "Modifica widget",
       "widget": {
         "text": "Testo",
         "number": "Numero",
@@ -6950,7 +6950,7 @@
       "showOnHover": "Mostra il suggerimento al passaggio del mouse",
       "hoverHint": "Il suggerimento mostra il titolo e i campi che contrassegni come «Nel suggerimento».",
       "titleField": "Campo del titolo",
-      "titleFieldDefault": "Nome del layer",
+      "titleFieldDefault": "Nome di layer",
       "titleExpression": "Espressione del titolo",
       "titleExpressionPlaceholder": "[\"get\", \"name\"]",
       "bodyExpression": "Espressione del corpo",
@@ -7111,7 +7111,7 @@
     "openStyleManager": "Stili salvati (Gestione stili)…",
     "importStyleSuccess": "Stile importato.",
     "importStyleInvalid": "Il file non è un JSON, SLD o QML valido.",
-    "importStyleNoMatch": "Non è stato possibile leggere alcuna simbologia da questo stile.",
+    "importStyleNoMatch": "Non è stato possibile leggere alcuna simbologia da quello stile.",
     "importStyleError": "Impossibile importare questo stile.",
     "copyStyle": "Copia stile",
     "pasteStyle": "Incolla stile",
@@ -7326,7 +7326,7 @@
   },
   "netcdfSymbology": {
     "heading": "Simbologia NetCDF",
-    "colorRampLabel": "Mappa colori",
+    "colorRampLabel": "Mappa di colori",
     "reverse": "Inverti la mappa colori",
     "colorMin": "Colore min",
     "colorMax": "Colore max",
@@ -7360,7 +7360,7 @@
     "blue": "Blu",
     "planeEstimate": "{{count}} letture di banda",
     "create": "Crea il cubo",
-    "colorRampLabel": "Mappa colori",
+    "colorRampLabel": "Mappa di colori",
     "reverse": "Inverti",
     "showRgb": "RGB in cima",
     "rgbBands": "Bande RGB",
